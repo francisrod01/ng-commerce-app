@@ -23,6 +23,7 @@ import { RecommendedItemsComponent } from './recommended-items/recommended-items
 import { TradeServicesComponent } from './trade-services/trade-services.component';
 import { RegionsListComponent } from './regions-list/regions-list.component';
 import { LargeBannerComponent } from './large-banner/large-banner.component';
+import { SubscribeFormComponent } from './subscribe-form/subscribe-form.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { LargeBannerComponent } from './large-banner/large-banner.component';
     RecommendedItemsComponent,
     TradeServicesComponent,
     RegionsListComponent,
-    LargeBannerComponent
+    LargeBannerComponent,
+    SubscribeFormComponent
   ],
   imports: [
     BrowserModule,
