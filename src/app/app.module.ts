@@ -19,6 +19,8 @@ import { HomeCategoryListComponent } from './home-category-list/home-category-li
 import { RequestQuotationComponent } from './request-quotation/request-quotation.component';
 import { BannerQuoteComponent } from './banner-quote/banner-quote.component';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
+import { RecommendedItemsComponent } from './recommended-items/recommended-items.component';
+import { TradeServicesComponent } from './trade-services/trade-services.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +39,9 @@ import { QuoteFormComponent } from './quote-form/quote-form.component';
     HomeCategoryListComponent,
     RequestQuotationComponent,
     BannerQuoteComponent,
-    QuoteFormComponent
+    QuoteFormComponent,
+    RecommendedItemsComponent,
+    TradeServicesComponent
   ],
   imports: [
     BrowserModule,
