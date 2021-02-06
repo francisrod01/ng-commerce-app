@@ -9,6 +9,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { MenuCategoryComponent } from './menu-category/menu-category.component';
 import { ProductsListComponent } from './products-list/products-list.component';
 import { DownloadDemoComponent } from './download-demo/download-demo.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { DownloadDemoComponent } from './download-demo/download-demo.component';
     NavBarComponent,
     MenuCategoryComponent,
     ProductsListComponent,
-    DownloadDemoComponent
+    DownloadDemoComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
