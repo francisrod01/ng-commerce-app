@@ -11,6 +11,7 @@ import { ProductsListComponent } from './products-list/products-list.component';
 import { DownloadDemoComponent } from './download-demo/download-demo.component';
 import { FooterComponent } from './footer/footer.component';
 import { WidgetsHeaderComponent } from './widgets-header/widgets-header.component';
+import { CarouselSliderComponent } from './carousel-slider/carousel-slider.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { WidgetsHeaderComponent } from './widgets-header/widgets-header.componen
     ProductsListComponent,
     DownloadDemoComponent,
     FooterComponent,
-    WidgetsHeaderComponent
+    WidgetsHeaderComponent,
+    CarouselSliderComponent
   ],
   imports: [
     BrowserModule,
