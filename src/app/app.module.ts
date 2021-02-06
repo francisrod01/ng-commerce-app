@@ -12,6 +12,7 @@ import { DownloadDemoComponent } from './download-demo/download-demo.component';
 import { FooterComponent } from './footer/footer.component';
 import { WidgetsHeaderComponent } from './widgets-header/widgets-header.component';
 import { CarouselSliderComponent } from './carousel-slider/carousel-slider.component';
+import { PopularCategoryComponent } from './popular-category/popular-category.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { CarouselSliderComponent } from './carousel-slider/carousel-slider.compo
     DownloadDemoComponent,
     FooterComponent,
     WidgetsHeaderComponent,
-    CarouselSliderComponent
+    CarouselSliderComponent,
+    PopularCategoryComponent
   ],
   imports: [
     BrowserModule,
