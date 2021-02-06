@@ -22,6 +22,7 @@ import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { RecommendedItemsComponent } from './recommended-items/recommended-items.component';
 import { TradeServicesComponent } from './trade-services/trade-services.component';
 import { RegionsListComponent } from './regions-list/regions-list.component';
+import { LargeBannerComponent } from './large-banner/large-banner.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { RegionsListComponent } from './regions-list/regions-list.component';
     QuoteFormComponent,
     RecommendedItemsComponent,
     TradeServicesComponent,
-    RegionsListComponent
+    RegionsListComponent,
+    LargeBannerComponent
   ],
   imports: [
     BrowserModule,
