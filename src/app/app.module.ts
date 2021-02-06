@@ -16,6 +16,9 @@ import { PopularCategoryComponent } from './popular-category/popular-category.co
 import { HomeCategoryComponent } from './home-category/home-category.component';
 import { HomeCategoryBannerComponent } from './home-category-banner/home-category-banner.component';
 import { HomeCategoryListComponent } from './home-category-list/home-category-list.component';
+import { RequestQuotationComponent } from './request-quotation/request-quotation.component';
+import { BannerQuoteComponent } from './banner-quote/banner-quote.component';
+import { QuoteFormComponent } from './quote-form/quote-form.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +34,10 @@ import { HomeCategoryListComponent } from './home-category-list/home-category-li
     PopularCategoryComponent,
     HomeCategoryComponent,
     HomeCategoryBannerComponent,
-    HomeCategoryListComponent
+    HomeCategoryListComponent,
+    RequestQuotationComponent,
+    BannerQuoteComponent,
+    QuoteFormComponent
   ],
   imports: [
     BrowserModule,
