@@ -21,6 +21,7 @@ import { BannerQuoteComponent } from './banner-quote/banner-quote.component';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { RecommendedItemsComponent } from './recommended-items/recommended-items.component';
 import { TradeServicesComponent } from './trade-services/trade-services.component';
+import { RegionsListComponent } from './regions-list/regions-list.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { TradeServicesComponent } from './trade-services/trade-services.componen
     BannerQuoteComponent,
     QuoteFormComponent,
     RecommendedItemsComponent,
-    TradeServicesComponent
+    TradeServicesComponent,
+    RegionsListComponent
   ],
   imports: [
     BrowserModule,
