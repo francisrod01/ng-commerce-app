@@ -13,6 +13,7 @@ import { FooterComponent } from './footer/footer.component';
 import { WidgetsHeaderComponent } from './widgets-header/widgets-header.component';
 import { CarouselSliderComponent } from './carousel-slider/carousel-slider.component';
 import { PopularCategoryComponent } from './popular-category/popular-category.component';
+import { HomeCategoryComponent } from './home-category/home-category.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { PopularCategoryComponent } from './popular-category/popular-category.co
     FooterComponent,
     WidgetsHeaderComponent,
     CarouselSliderComponent,
-    PopularCategoryComponent
+    PopularCategoryComponent,
+    HomeCategoryComponent
   ],
   imports: [
     BrowserModule,
