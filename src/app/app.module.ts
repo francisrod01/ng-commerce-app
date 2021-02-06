@@ -10,6 +10,7 @@ import { MenuCategoryComponent } from './menu-category/menu-category.component';
 import { ProductsListComponent } from './products-list/products-list.component';
 import { DownloadDemoComponent } from './download-demo/download-demo.component';
 import { FooterComponent } from './footer/footer.component';
+import { WidgetsHeaderComponent } from './widgets-header/widgets-header.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FooterComponent } from './footer/footer.component';
     MenuCategoryComponent,
     ProductsListComponent,
     DownloadDemoComponent,
-    FooterComponent
+    FooterComponent,
+    WidgetsHeaderComponent
   ],
   imports: [
     BrowserModule,
