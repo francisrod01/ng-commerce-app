@@ -8,6 +8,7 @@ import { SearchFormComponent } from './search-form/search-form.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { MenuCategoryComponent } from './menu-category/menu-category.component';
 import { ProductsListComponent } from './products-list/products-list.component';
+import { DownloadDemoComponent } from './download-demo/download-demo.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ProductsListComponent } from './products-list/products-list.component';
     SearchFormComponent,
     NavBarComponent,
     MenuCategoryComponent,
-    ProductsListComponent
+    ProductsListComponent,
+    DownloadDemoComponent
   ],
   imports: [
     BrowserModule,
