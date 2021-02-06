@@ -15,6 +15,7 @@ import { CarouselSliderComponent } from './carousel-slider/carousel-slider.compo
 import { PopularCategoryComponent } from './popular-category/popular-category.component';
 import { HomeCategoryComponent } from './home-category/home-category.component';
 import { HomeCategoryBannerComponent } from './home-category-banner/home-category-banner.component';
+import { HomeCategoryListComponent } from './home-category-list/home-category-list.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { HomeCategoryBannerComponent } from './home-category-banner/home-categor
     CarouselSliderComponent,
     PopularCategoryComponent,
     HomeCategoryComponent,
-    HomeCategoryBannerComponent
+    HomeCategoryBannerComponent,
+    HomeCategoryListComponent
   ],
   imports: [
     BrowserModule,
