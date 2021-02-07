@@ -8,10 +8,10 @@
 
     <div class="collapse navbar-collapse" id="main_nav">
       <ul class="navbar-nav">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"> <i
+        <li class="nav-item dropdown" ngbDropdown>
+          <a class="nav-link dropdown-toggle" ngbDropdownToggle data-toggle="dropdown" href="#"> <i
               class="fa fa-bars text-muted mr-2"></i> Demo pages </a>
-          <div class="dropdown-menu dropdown-large">
+          <div class="dropdown-menu dropdown-large" ngbDropdownMenu>
             <nav class="row">
               <div class="col-6">
                 <a href="page-index-1.html">Home page 1</a>
@@ -55,9 +55,9 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Get the app</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="http://example.com" data-toggle="dropdown">English</a>
-          <div class="dropdown-menu dropdown-menu-right">
+        <li class="nav-item dropdown" ngbDropdown>
+          <a class="nav-link dropdown-toggle" href="#" ngbDropdownToggle data-toggle="dropdown">English</a>
+          <div class="dropdown-menu dropdown-menu-right" ngbDropdownMenu>
             <a class="dropdown-item" href="#">Russian</a>
             <a class="dropdown-item" href="#">French</a>
             <a class="dropdown-item" href="#">Spanish</a>
