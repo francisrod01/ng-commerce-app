@@ -1,16 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
     selector: 'app-large-banner',
     templateUrl: './large-banner.component.html',
-    styleUrls: ['./large-banner.component.less'],
-    standalone: false
+    styleUrls: ['./large-banner.component.less']
 })
-export class LargeBannerComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+export class LargeBannerComponent {
 
 }

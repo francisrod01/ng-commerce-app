@@ -1,16 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
     selector: 'app-banner-quote',
     templateUrl: './banner-quote.component.html',
-    styleUrls: ['./banner-quote.component.less'],
-    standalone: false
+    styleUrls: ['./banner-quote.component.less']
 })
-export class BannerQuoteComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+export class BannerQuoteComponent {
 
 }
