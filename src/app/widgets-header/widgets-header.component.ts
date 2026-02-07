@@ -3,9 +3,10 @@ import { Component, OnInit } from '@angular/core';
 import { faCommentDots, faShoppingCart, faStore, faUser } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
-  selector: 'app-widgets-header',
-  templateUrl: './widgets-header.component.html',
-  styleUrls: ['./widgets-header.component.less']
+    selector: 'app-widgets-header',
+    templateUrl: './widgets-header.component.html',
+    styleUrls: ['./widgets-header.component.less'],
+    standalone: false
 })
 export class WidgetsHeaderComponent implements OnInit {
   faUser = faUser;

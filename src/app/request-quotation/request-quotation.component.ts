@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-request-quotation',
-  templateUrl: './request-quotation.component.html',
-  styleUrls: ['./request-quotation.component.less']
+    selector: 'app-request-quotation',
+    templateUrl: './request-quotation.component.html',
+    styleUrls: ['./request-quotation.component.less'],
+    standalone: false
 })
 export class RequestQuotationComponent implements OnInit {
 

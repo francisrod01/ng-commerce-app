@@ -6,9 +6,10 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
-  selector: 'app-footer',
-  templateUrl: './footer.component.html',
-  styleUrls: ['./footer.component.less']
+    selector: 'app-footer',
+    templateUrl: './footer.component.html',
+    styleUrls: ['./footer.component.less'],
+    standalone: false
 })
 export class FooterComponent implements OnInit {
   faFacebook = faFacebook;

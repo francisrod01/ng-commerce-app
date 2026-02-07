@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-home-category-banner',
-  templateUrl: './home-category-banner.component.html',
-  styleUrls: ['./home-category-banner.component.less']
+    selector: 'app-home-category-banner',
+    templateUrl: './home-category-banner.component.html',
+    styleUrls: ['./home-category-banner.component.less'],
+    standalone: false
 })
 export class HomeCategoryBannerComponent implements OnInit {
 

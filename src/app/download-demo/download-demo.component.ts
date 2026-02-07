@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-download-demo',
-  templateUrl: './download-demo.component.html',
-  styleUrls: ['./download-demo.component.less']
+    selector: 'app-download-demo',
+    templateUrl: './download-demo.component.html',
+    styleUrls: ['./download-demo.component.less'],
+    standalone: false
 })
 export class DownloadDemoComponent implements OnInit {
 

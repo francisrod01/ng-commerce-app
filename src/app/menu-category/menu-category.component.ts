@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-menu-category',
-  templateUrl: './menu-category.component.html',
-  styleUrls: ['./menu-category.component.less']
+    selector: 'app-menu-category',
+    templateUrl: './menu-category.component.html',
+    styleUrls: ['./menu-category.component.less'],
+    standalone: false
 })
 export class MenuCategoryComponent implements OnInit {
 
