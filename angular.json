@@ -77,18 +77,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ng-commerce-app:build"
+            "buildTarget": "ng-commerce-app:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "ng-commerce-app:build:production"
+              "buildTarget": "ng-commerce-app:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ng-commerce-app:build"
+            "buildTarget": "ng-commerce-app:build"
           }
         },
         "test": {
