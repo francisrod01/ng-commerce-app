@@ -1,7 +1,10 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "cli": {
-    "analytics": "e8927fea-9eb5-4ccf-92f4-e8d4820d551e"
+    "analytics": "e8927fea-9eb5-4ccf-92f4-e8d4820d551e",
+    "schematicCollections": [
+      "angular-eslint"
+    ]
   },
   "version": 1,
   "newProjectRoot": "projects",
@@ -121,6 +124,15 @@
             "production": {
               "devServerTarget": "ng-commerce-app:serve:production"
             }
+          }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "src/**/*.ts",
+              "src/**/*.html"
+            ]
           }
         }
       }
