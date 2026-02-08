@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 import {
   faCcMastercard, faCcPaypal, faCcVisa,
@@ -9,9 +11,10 @@ import {
     selector: 'app-footer',
     templateUrl: './footer.component.html',
     styleUrls: ['./footer.component.less'],
-    standalone: false
+    standalone: true,
+    imports: [CommonModule, FontAwesomeModule]
 })
-export class FooterComponent implements OnInit {
+export class FooterComponent {
   faFacebook = faFacebook;
   faTwitter = faTwitter;
   faInstagram = faInstagram;
@@ -20,10 +23,5 @@ export class FooterComponent implements OnInit {
   faCcVisa = faCcVisa;
   faCcPaypal = faCcPaypal;
   faCcMastercard = faCcMastercard;
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }

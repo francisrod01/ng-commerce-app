@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
@@ -6,14 +8,10 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
     selector: 'app-nav-bar',
     templateUrl: './nav-bar.component.html',
     styleUrls: ['./nav-bar.component.less'],
-    standalone: false
+    standalone: true,
+    imports: [CommonModule, FontAwesomeModule]
 })
-export class NavBarComponent implements OnInit {
+export class NavBarComponent {
   faBars = faBars;
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }

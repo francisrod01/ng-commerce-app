@@ -8,7 +8,7 @@ describe('WidgetsHeaderComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ WidgetsHeaderComponent ]
+      imports: [ WidgetsHeaderComponent ]
     })
     .compileComponents();
   });

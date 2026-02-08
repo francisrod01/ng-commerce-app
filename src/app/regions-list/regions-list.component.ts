@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 import { faEllipsisH } from '@fortawesome/free-solid-svg-icons';
 
@@ -6,14 +8,10 @@ import { faEllipsisH } from '@fortawesome/free-solid-svg-icons';
     selector: 'app-regions-list',
     templateUrl: './regions-list.component.html',
     styleUrls: ['./regions-list.component.less'],
-    standalone: false
+    standalone: true,
+    imports: [CommonModule, FontAwesomeModule]
 })
-export class RegionsListComponent implements OnInit {
+export class RegionsListComponent {
   faEllipsisH = faEllipsisH;
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }

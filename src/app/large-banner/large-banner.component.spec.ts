@@ -8,7 +8,7 @@ describe('LargeBannerComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ LargeBannerComponent ]
+      imports: [ LargeBannerComponent ]
     })
     .compileComponents();
   });

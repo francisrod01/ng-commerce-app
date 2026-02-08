@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
@@ -6,14 +8,10 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
     selector: 'app-subscribe-form',
     templateUrl: './subscribe-form.component.html',
     styleUrls: ['./subscribe-form.component.less'],
-    standalone: false
+    standalone: true,
+    imports: [CommonModule, FontAwesomeModule]
 })
-export class SubscribeFormComponent implements OnInit {
+export class SubscribeFormComponent {
   faEnvelope = faEnvelope;
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }

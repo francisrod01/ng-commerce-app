@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 import { faCommentDots, faShoppingCart, faStore, faUser } from '@fortawesome/free-solid-svg-icons';
 
@@ -6,17 +8,13 @@ import { faCommentDots, faShoppingCart, faStore, faUser } from '@fortawesome/fre
     selector: 'app-widgets-header',
     templateUrl: './widgets-header.component.html',
     styleUrls: ['./widgets-header.component.less'],
-    standalone: false
+    standalone: true,
+    imports: [CommonModule, FontAwesomeModule]
 })
-export class WidgetsHeaderComponent implements OnInit {
+export class WidgetsHeaderComponent {
   faUser = faUser;
   faCommentDots = faCommentDots;
   faStore = faStore;
   faShoppingCart = faShoppingCart;
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }
