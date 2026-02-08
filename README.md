@@ -36,7 +36,7 @@ Notes:
 
 ### Technical information
 
-This project was created with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.4.
+This project was originally generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.4 and has since been upgraded to **Angular v21** using the Angular CLI 21.x toolchain.
 
 ## License
 
