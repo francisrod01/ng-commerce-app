@@ -4,5 +4,5 @@
 Cypress.Commands.add('navToHome', (): Cypress.Chainable<Window> => cy.visit('/'));
 
 // App page helper: returns the app title/brand text
-Cypress.Commands.add('getTitleText', (): Cypress.Chainable<string> => cy.get('app-root .content span').invoke('text'));
+Cypress.Commands.add('getTitleText', (): Cypress.Chainable<string> => cy.get('.brand-wrap').invoke('text'));
 
