@@ -11,6 +11,7 @@ import {
 getTestBed().initTestEnvironment(
   BrowserDynamicTestingModule,
   platformBrowserDynamicTesting(), {
-    teardown: { destroyAfterEach: false }
-}
+    // Enable Angular's teardown between tests to avoid cross-test pollution.
+    teardown: { destroyAfterEach: true }
+  }
 );
