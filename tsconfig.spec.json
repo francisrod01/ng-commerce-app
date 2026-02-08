@@ -14,5 +14,10 @@
   "include": [
     "src/**/*.spec.ts",
     "src/**/*.d.ts"
+  ],
+  "exclude": [
+    "cypress",
+    "e2e",
+    "node_modules"
   ]
 }
