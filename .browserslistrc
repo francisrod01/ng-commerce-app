@@ -1,0 +1,7 @@
+# Browserslist — explicit browser support policy for ng-commerce-app
+# Keep this file in repo to avoid accidentally changing build targets/outputs
+> 0.5%
+last 2 versions
+Firefox ESR
+not dead
+not IE 11
