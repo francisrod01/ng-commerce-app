@@ -38,6 +38,12 @@ Notes:
 
 This project was originally generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.4 and has since been upgraded to **Angular v21** using the Angular CLI 21.x toolchain.
 
+## Release v1.0
+
+**v1.0 — Upgrade to Angular 21 & migrate to Cypress**
+
+We bumped the project to **Angular v21**, replaced Protractor with **Cypress** for E2E tests, added ESLint, and modernized tests & CI. See the release notes: https://github.com/francisrod01/ng-commerce-app/releases/tag/v1.0
+
 ## License
 
 MIT
