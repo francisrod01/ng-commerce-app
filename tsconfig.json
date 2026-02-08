@@ -16,5 +16,14 @@
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false
-  }
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "**/*.spec.ts",
+    "cypress",
+    "e2e",
+    "node_modules"
+  ]
 }

@@ -114,18 +114,7 @@
             "scripts": []
           }
         },
-        "e2e": {
-          "builder": "@angular-devkit/build-angular:protractor",
-          "options": {
-            "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "ng-commerce-app:serve"
-          },
-          "configurations": {
-            "production": {
-              "devServerTarget": "ng-commerce-app:serve:production"
-            }
-          }
-        },
+
         "lint": {
           "builder": "@angular-eslint/builder:lint",
           "options": {

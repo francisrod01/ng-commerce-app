@@ -20,6 +20,20 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
+
+### Test
+
+- Unit tests: run `npm test` (Karma + Jasmine). To run a single headless run locally: `npx ng test --watch=false --browsers=ChromeHeadless`.
+- Lint: run `npm run lint` (ESLint via angular-eslint).
+- End-to-end (E2E): Cypress is used for E2E tests.
+  - Open interactive runner: `npm run e2e` (runs `cypress open`).
+  - Run headless (CI/local): `npm run e2e:run` (starts the dev server and runs `cypress run`).
+
+Notes:
+- A GitHub Actions workflow (`.github/workflows/cypress-e2e.yml`) runs the Cypress suite on push/PRs.
+- Cypress has a dedicated `cypress/tsconfig.json` so Cypress files are type-checked separately from the app.
+
+
 ### Technical information
 
 This project was created with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.4.
