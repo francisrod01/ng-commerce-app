@@ -8,7 +8,7 @@ describe('PopularCategoryComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PopularCategoryComponent ]
+      imports: [ PopularCategoryComponent ]
     })
     .compileComponents();
   });

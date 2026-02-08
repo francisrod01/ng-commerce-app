@@ -8,7 +8,7 @@ describe('SubscribeFormComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SubscribeFormComponent ]
+      imports: [ SubscribeFormComponent ]
     })
     .compileComponents();
   });

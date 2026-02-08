@@ -1,0 +1,37 @@
+name: E2E Tests (Cypress)
+
+on:
+  push:
+    branches: [ main, master, 'feature/**' ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  e2e:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run E2E tests (start server & Cypress)
+        run: npm run e2e:run
+        env:
+          CI: true
+
+      - name: Upload Cypress videos/screenshots (if any)
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cypress-artifacts
+          path:
+            - cypress/videos/**
+            - cypress/screenshots/**

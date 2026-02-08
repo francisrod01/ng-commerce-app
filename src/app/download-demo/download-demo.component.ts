@@ -1,15 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-download-demo',
-  templateUrl: './download-demo.component.html',
-  styleUrls: ['./download-demo.component.less']
+    selector: 'app-download-demo',
+    templateUrl: './download-demo.component.html',
+    styleUrls: ['./download-demo.component.less'],
+    standalone: true,
+    imports: [CommonModule]
 })
-export class DownloadDemoComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+export class DownloadDemoComponent {
 
 }

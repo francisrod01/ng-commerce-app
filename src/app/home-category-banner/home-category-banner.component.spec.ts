@@ -8,7 +8,7 @@ describe('HomeCategoryBannerComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ HomeCategoryBannerComponent ]
+      imports: [ HomeCategoryBannerComponent ]
     })
     .compileComponents();
   });

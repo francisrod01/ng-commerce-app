@@ -8,7 +8,7 @@ describe('DownloadDemoComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ DownloadDemoComponent ]
+      imports: [ DownloadDemoComponent ]
     })
     .compileComponents();
   });

@@ -4,7 +4,7 @@ import { AppComponent } from './app.component';
 describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [
+      imports: [
         AppComponent
       ],
     }).compileComponents();
@@ -22,10 +22,10 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('ng-commerce-app');
   });
 
-  it('should render title', () => {
+  it('should render brand', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('ng-commerce-app app is running!');
+    expect(compiled.querySelector('.brand-wrap').textContent).toContain('Angular Store');
   });
 });

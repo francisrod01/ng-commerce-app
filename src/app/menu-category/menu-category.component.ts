@@ -1,15 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-menu-category',
-  templateUrl: './menu-category.component.html',
-  styleUrls: ['./menu-category.component.less']
+    selector: 'app-menu-category',
+    templateUrl: './menu-category.component.html',
+    styleUrls: ['./menu-category.component.less'],
+    standalone: true,
+    imports: [CommonModule]
 })
-export class MenuCategoryComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+export class MenuCategoryComponent {
 
 }
